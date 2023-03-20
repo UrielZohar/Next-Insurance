@@ -1,0 +1,15 @@
+.search-movies-input {
+  width: 838px;
+  margin: 0 auto 35px auto;
+}
+
+.mobile-view {
+
+  .search-movies-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto 35px auto;
+  }
+
+}

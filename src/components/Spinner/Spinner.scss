@@ -1,0 +1,13 @@
+@import '../../style/colors.scss';
+
+.spinner-container {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: $spinner-background-color;
+  width: 100vw;
+  height: 100vh;
+}

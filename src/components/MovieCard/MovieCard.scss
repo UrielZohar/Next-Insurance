@@ -1,0 +1,84 @@
+@import '../../style/fonts.scss';
+@import '../../style/colors.scss';
+
+.movie-card {
+  width: 180px;
+  .movie-image {
+    width: 100%;
+    height: 255px;
+  }
+
+  .movie-title, .movie-rating {
+    font: $movie-card-font;
+    letter-spacing: -0.6px;
+    color: $font-color-black;
+  }
+
+  .movie-rating {
+    font: $movie-rating-font;
+    letter-spacing: -0.5px;
+    color: $font-color-black;
+  }
+
+  .movie-title {
+    height: 95px;
+  }
+
+  .movie-rating {
+    .movie-rating-star {
+      position: relative;
+      top: 2px;
+      margin-right: 5px;
+    }
+  }
+
+  .read-more-button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+
+    .button-text {
+      flex: 6;
+      margin-left: 5px;
+      font-size: 20px;
+    }
+
+    .button-arrow {
+      flex: 1;
+      margin-right: 10px;
+
+      .arrow-right-image {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.mobile-view {
+  .movie-card {
+    width: 130px;
+
+    .movie-title {
+      height: 75px;
+      font: $movie-card-font-moblie
+    }
+
+    .movie-rating {
+      font: $movie-card-font-moblie
+    }
+
+    .movie-image {
+      width: 130px;
+      height: 180px;
+    }
+
+    .read-more-button { 
+      height: auto;
+    }
+  }
+
+}

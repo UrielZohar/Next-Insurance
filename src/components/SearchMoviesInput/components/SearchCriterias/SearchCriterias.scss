@@ -1,0 +1,47 @@
+@import '../../../../style/fonts.scss';
+
+.search-criterias {
+  padding-top: 15px;
+  
+  .min-year {
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .min-rating {
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .max-length-label {
+    font-family: $criterias-font;
+  }
+
+  .max-length {
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  } 
+
+  .clear-filter {
+    float: right;
+  }
+}
+
+.mobile-view {
+  .search-criterias { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    & > div {
+      width: 100%;
+    }
+
+    .max-length {
+      margin: 0;
+      width: 95%;
+    }
+  }
+}

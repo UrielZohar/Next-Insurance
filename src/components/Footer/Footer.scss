@@ -1,0 +1,9 @@
+@import '/src/style/colors.scss';
+$footer-height: 225px;
+
+.app-footer {
+  background-color: $footer-background;
+  color: $font-color-white;
+  height: $footer-height;
+  text-align: center;
+}

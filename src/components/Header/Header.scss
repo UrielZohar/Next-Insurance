@@ -1,0 +1,24 @@
+@import '/src/style/colors.scss';
+$header-height: 90px;
+
+.app-header {
+  background-color: $header-backgorund;
+  height: $header-height;
+  margin: 23px 0;
+
+  .header-logo {
+    margin-left: 143px;
+  }
+}
+
+.mobile-view {
+  .app-header {
+    margin: 0;
+    display: flex;
+
+    .header-logo {
+      margin: 5px;
+    }
+  }
+
+}
