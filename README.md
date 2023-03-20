@@ -12,7 +12,7 @@ Now you have all the node packages and the server, just run:
 
 Now you can browse to the project:
 
-### localhost:3000
+### `localhost:3000`
 
 Recommanded things to check:
 
